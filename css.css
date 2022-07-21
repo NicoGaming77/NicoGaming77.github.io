@@ -1,0 +1,13 @@
+.text {
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+hr.footerline {
+	border: 2px solid #303030;
+}
+
+.img {
+	width: 50px;
+	padding: 5px;
+}
