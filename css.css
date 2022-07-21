@@ -11,3 +11,7 @@ hr.footerline {
 	width: 50px;
 	padding: 5px;
 }
+
+a:link, a:visited, a:hover, a:active {
+	color: transparent;
+}
