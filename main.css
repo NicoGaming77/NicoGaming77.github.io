@@ -4,6 +4,7 @@
 }
 
 body {
+	background-color: black;
 	background-image: url("assets/images/background-main.jpg");
 	background-size: 100%, auto;
 }
