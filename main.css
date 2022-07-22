@@ -1,0 +1,23 @@
+.text {
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+body {
+	background-image: url("assets/images/background-main.jpg");
+	background-size: 100%, auto;
+}
+
+hr.footerline {
+	border: 2px solid #303030;
+}
+
+.img {
+	width: 40px;
+	hight: auto;
+	padding: 4px;
+}
+
+footer a:link, footer a:visited, footer a:hover, footer a:active {
+	color: transparent;
+}
