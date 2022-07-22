@@ -9,6 +9,12 @@ body {
 	background-size: 100%, auto;
 }
 
+@media screen and (max-width: 768px){
+body {
+	background-image: url("assets/images/background-vertical.jpg"); 
+	}
+}
+
 hr.footerline {
 	border: 2px solid #303030;
 }
