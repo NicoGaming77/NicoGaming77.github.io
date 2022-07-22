@@ -9,7 +9,7 @@ body {
 	background-size: 100%, auto;
 }
 
-@media screen and (max-width: 768px){
+@media (orientation: portrait){
 body {
 	background-image: url("assets/images/background-vertical.jpg"); 
 	}
