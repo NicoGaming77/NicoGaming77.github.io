@@ -14,7 +14,7 @@
 	display: inline-block;
 }
 
-@media (orientation: portrait){
+@media (orientation: portrait) {
 .box {
 	background-color: #303030;
 	margin-left: 5%;
@@ -33,7 +33,7 @@ body {
 	background-size: 100%, auto;
 }
 
-@media (orientation: portrait){
+@media (orientation: portrait) {
 body {
 	background-image: url("assets/images/background-vertical.jpg"); 
 	}
@@ -72,9 +72,11 @@ hr.footerline {
 	margin-left: 5%;
 }
 
-@media (orientation: portrait){
+@media (orientation: portrait) {
 	.button {
 		font-size: 4vw;
+		padding: 10px 20px;
+		border-radius: 30px;
 	}
 	.p-align {
 		font-size: 4vw;
@@ -84,6 +86,9 @@ hr.footerline {
 	}
 	.box-title {
 		font-size: 5vw;
+		text-align: center;
+		margin-top: -0.2em;
+		margin-bottom: -0.2em;
 	}
 	.box-text {
 		font-size: 4vw;
