@@ -77,6 +77,12 @@ hr.footerline {
 	margin-left: 5%;
 }
 
+@media (orientation: portrait){
+.p-align {
+	font-size: 4vw;
+	}
+}
+
 footer a:link, footer a:visited, footer a:hover, footer a:active {
 	color: transparent;
 }
