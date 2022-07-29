@@ -68,19 +68,31 @@ hr.footerline {
 	display:inline-block;
 }
 
-.button:hover {
-	transform: translateY(-4px);
-	box-shadow: 4px 10px 4px black;
-}
-
 .p-align {
 	margin-left: 5%;
 }
 
 @media (orientation: portrait){
-.p-align {
-	font-size: 4vw;
+	.button {
+		font-size: 4vw;
 	}
+	.p-align {
+		font-size: 4vw;
+	}
+	.h-size {
+		font-size: 7vw;
+	}
+	.box-title {
+		font-size: 5vw;
+	}
+	.box-text {
+		font-size: 4vw;
+	}
+}
+
+.button:hover {
+	transform: translateY(-4px);
+	box-shadow: 4px 10px 4px black;
 }
 
 footer a:link, footer a:visited, footer a:hover, footer a:active {
