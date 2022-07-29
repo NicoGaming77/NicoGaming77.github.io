@@ -3,6 +3,14 @@
 	color: white;
 }
 
+.box {
+	width: 40%;
+	border: 4px solid #303030;
+	border-radius: 25px;
+	padding: 10px;
+	display: inline-block;
+}
+
 body {
 	background-color: black;
 	background-image: url("assets/images/background-main.jpg");
@@ -21,7 +29,7 @@ hr.footerline {
 
 .img {
 	width: 40px;
-	hight: auto;
+	height: auto;
 	padding: 4px;
 }
 
