@@ -27,14 +27,20 @@
 	}
 }
 
-body {
+.body {
 	background-color: black;
 	background-image: url("assets/images/background-main.jpg");
 	background-size: 100%, auto;
+	background-repeat: no-repeat;
+}
+
+.body-solid {
+	background-color: black;
+	background-image: url("assets/images/blue.jpg");
 }
 
 @media (orientation: portrait) {
-body {
+.body {
 	background-image: url("assets/images/background-vertical.jpg"); 
 	}
 }
@@ -47,6 +53,15 @@ hr.footerline {
 	width: 40px;
 	height: auto;
 	padding: 4px;
+}
+
+.video {
+	width: 99.5%;
+	border: 2px solid white;
+	border-radius: 16px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .project-image {
@@ -65,7 +80,27 @@ hr.footerline {
 	padding: 10px 15px;
 	border: 2px solid #303030;
 	border-radius: 20px;
-	display:inline-block;
+	display: inline-block;
+}
+
+.button:hover {
+	transform: translateY(-4px);
+	box-shadow: 4px 10px 4px black;
+}
+
+.button-2 {
+	color: white;
+	background-color: #303030;
+	margin-left: 1%;
+	padding: 10px 15px;
+	border: 2px solid #303030;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.button-2:hover {
+	transform: translateY(-4px);
+	box-shadow: 4px 10px 4px black;
 }
 
 .p-align {
@@ -93,11 +128,6 @@ hr.footerline {
 	.box-text {
 		font-size: 4vw;
 	}
-}
-
-.button:hover {
-	transform: translateY(-4px);
-	box-shadow: 4px 10px 4px black;
 }
 
 footer a:link, footer a:visited, footer a:hover, footer a:active {
