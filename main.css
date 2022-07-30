@@ -27,6 +27,12 @@
 	}
 }
 
+.box-title {
+	text-align: center;
+	margin-top: -0.2em;
+	margin-bottom: -0.2em;
+}
+
 .body {
 	background-color: black;
 	background-image: url("assets/images/background-main.jpg");
@@ -139,7 +145,7 @@ hr.footerline {
 		width: 8vw;
 		height: auto;
 		padding: 0.5vw;
-}
+	}
 }
 
 footer a:link, footer a:visited, footer a:hover, footer a:active {
