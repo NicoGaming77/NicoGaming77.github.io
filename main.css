@@ -135,6 +135,11 @@ hr.footerline {
 	.box-text {
 		font-size: 4vw;
 	}
+	.img {
+		width: 8vw;
+		height: auto;
+		padding: 0.5vw;
+}
 }
 
 footer a:link, footer a:visited, footer a:hover, footer a:active {
