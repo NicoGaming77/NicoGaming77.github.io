@@ -93,6 +93,18 @@ hr.footerline {
 	margin-right: auto;
 }
 
+.download-link {
+	text-align: center;
+}
+
+.download-link a:visited, a:link {
+	color: white;
+}
+
+.download-link a:hover, a:active {
+	color: #bbbbbb;
+}
+
 .button {
 	color: white;
 	background-color: #303030;
@@ -178,6 +190,9 @@ hr.footerline {
 		border-radius: 25px;
 		padding: 10px;
 		display: inline-block;
+	}
+	.download-link {
+		font-size: 4vw;
 	}
 }
 
