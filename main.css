@@ -34,15 +34,31 @@
 }
 
 .body {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #261f3e;
 	background-image: url("assets/images/background-main.jpg");
 	background-size: 100%, auto;
-	background-repeat: no-repeat;
 }
 
-.body-solid {
-	background-color: black;
-	background-image: url("assets/images/blue.jpg");
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #606060; 
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #303030; 
 }
 
 .big-box {
