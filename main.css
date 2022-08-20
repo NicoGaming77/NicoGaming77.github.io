@@ -37,7 +37,6 @@
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-color: #261f3e;
 	background-image: url("assets/images/background-main.jpg");
 	background-size: 100%, auto;
@@ -59,6 +58,11 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background: #303030; 
+}
+
+.bg2 {
+	background-image: url("assets/images/blue.jpg");
+	background-size: 626px;
 }
 
 .big-box {
@@ -195,6 +199,7 @@ hr.footerline {
 	
 	.body {
 		background-image: url("assets/images/background-vertical.jpg"); 
+		background-attachment: scroll;
 	}
 	
 	.big-box {
