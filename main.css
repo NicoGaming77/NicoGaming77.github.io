@@ -63,6 +63,7 @@ body::-webkit-scrollbar-thumb:hover {
 .bg2 {
 	background-image: url("assets/images/blue.jpg");
 	background-size: 626px;
+	gackground-color: black;
 }
 
 .big-box {
