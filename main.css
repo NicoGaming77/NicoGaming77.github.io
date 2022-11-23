@@ -63,7 +63,7 @@ body::-webkit-scrollbar-thumb:hover {
 .bg2 {
 	background-image: url("assets/images/blue.jpg");
 	background-size: 626px;
-	gackground-color: black;
+	background-color: black;
 }
 
 .big-box {
@@ -90,7 +90,7 @@ hr.footerline {
 	border: 2px solid #303030;
 }
 
-.img {
+.icon {
 	width: 40px;
 	height: auto;
 	padding: 4px;
@@ -192,7 +192,7 @@ hr.footerline {
 		font-size: 4vw;
 	}
 	
-	.img {
+	.icon {
 		width: 8vw;
 		height: auto;
 		padding: 0.5vw;
